@@ -9,15 +9,12 @@
 - **mathjs**: Library for mathematical operations, used to calculate standard deviation.
 - **dotenv**: For environment variable management.
 
-## Getting Started
-### Prerequisites
-- Node.js installed on your system.
-- MongoDB connection string (use MongoDB Atlas for a cloud-hosted solution).
+
 
 ### Installation
 1. **Clone the repository**:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/kellatirupathi/TASK1.git
     cd koinx-backend
     ```
 
