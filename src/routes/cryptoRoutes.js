@@ -1,8 +1,7 @@
 const express = require('express');
+const { getCryptoStats } = require('../controllers/cryptoController');
 const router = express.Router();
-const { getStats, getDeviation } = require('../controllers/cryptoController');
 
-router.get('/stats', getStats);
-router.get('/deviation', getDeviation);
+router.get('/stats', getCryptoStats);
 
 module.exports = router;
